@@ -1,0 +1,409 @@
+.profile {
+
+    background: #000;
+    display: inline-block;
+    width: 309px;
+    height: 400px;
+    border-radius: 12px;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 100px;
+    transition: 1s;
+   
+
+}
+
+.profile:hover {
+
+    box-shadow: 0 0 100px #a81616;
+    transition: 2s;
+   
+    
+}
+
+.bio {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 240px;
+    font-size: 20px;
+    font-family: monospace;
+    transition: 1s;
+    letter-spacing: 3px;
+    color: #000;
+    line-height: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.profile:hover .bio{
+    letter-spacing: 2px;
+
+    color: #ffffff;
+    transition: 2s;
+
+}
+
+img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #787575;
+    background-size: 100px;
+    padding: 2px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: 1s;
+
+}
+
+.profile:hover img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    background-color: #fff;
+    padding: 2px;
+    transition: 2s;
+    box-shadow: 0 0 40px #fff;
+
+
+
+
+}
+
+
+
+*{
+
+}
+
+
+.profile2 {
+
+    background: #000;
+    display: inline-block;
+    width: 309px;
+    height: 400px;
+    border-radius: 12px;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 450px;
+  
+    transition: 1s;
+   
+
+}
+
+.profile2:hover {
+
+    box-shadow: 0 0 100px #4c05f3;
+    transition: 2s;
+   
+    
+}
+
+.bio2{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 240px;
+    font-size: 20px;
+    font-family: monospace;
+    transition: 1s;
+    letter-spacing: 3px;
+    color: #000;
+    line-height: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+
+}
+
+.profile2:hover .bio2{
+    letter-spacing: 2px;
+
+    color: #ffffff;
+    transition: 2s;
+
+}
+
+img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #787575;
+    background-size: 100px;
+    padding: 2px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: 1s;
+
+}
+
+.profile2:hover img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    background-color: #fff;
+    padding: 2px;
+    transition: 2s;
+    box-shadow: 0 0 40px #fff;
+
+}
+
+
+
+
+
+.profile3 {
+
+    background: #000;
+    display: inline-block;
+    width: 309px;
+    height: 400px;
+    border-radius: 12px;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left:800px;
+  
+    transition: 1s;
+   
+
+}
+
+.profile3:hover {
+
+    box-shadow: 0 0 100px #0fed59;
+    transition: 2s;
+   
+    
+}
+
+.bio3{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 240px;
+    font-size: 20px;
+    font-family: monospace;
+    transition: 1s;
+    letter-spacing: 3px;
+    color: #000;
+    line-height: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+
+}
+
+.profile3:hover .bio3{
+    letter-spacing: 2px;
+
+    color: #ffffff;
+    transition: 2s;
+
+}
+
+img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #787575;
+    background-size: 100px;
+    padding: 2px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: 1s;
+
+}
+
+.profile3:hover img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    background-color: #fff;
+    padding: 2px;
+    transition: 2s;
+    box-shadow: 0 0 40px #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.profile4 {
+
+    background: #000;
+    display: inline-block;
+    width: 309px;
+    height: 400px;
+    border-radius: 12px;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left:1150px;
+  
+    transition: 1s;
+   
+
+}
+
+.profile4:hover {
+
+    box-shadow: 0 0 100px #ffff00;
+    transition: 2s;
+   
+    
+}
+
+.bio4{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 240px;
+    font-size: 20px;
+    font-family: monospace;
+    transition: 1s;
+    letter-spacing: 3px;
+    color: #000;
+    line-height: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+
+}
+
+.profile4:hover .bio4{
+    letter-spacing: 2px;
+
+    color: #ffffff;
+    transition: 2s;
+
+}
+
+img {
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #787575;
+    background-size: 100px;
+    padding: 2px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: 1s;
+
+}
+
+.profile4:hover img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    background-color: #fff;
+    padding: 2px;
+    transition: 2s;
+    box-shadow: 0 0 40px #fff;
+
+}
+button{
+    position: absolute;
+    left: 30px;
+    top:30px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: #000000;
+    box-shadow:0 0 10px #fff;
+    color: #fff;
+    opacity: 0.5;
+    transition: 0.9s;
+}
+
+button:hover {
+    width: 115px;
+    opacity: 1;
+    box-shadow:0 0 40px #fff;
+    transition: 0.7s;
+
+}
+
+
+ul{
+    position: absolute;
+    top:-14px;
+    left: -33px;
+
+}
+
+
+.home{
+    position: absolute;
+    top:-15px;
+    left: 30px;
+    white-space: nowrap;
+opacity: 0;
+letter-spacing: -10px;
+transition: 0.5s;
+}
+
+button:hover .home{
+
+    opacity: 1;
+    left: 40px;
+    letter-spacing: 1px;
+    transition: 1s;
+
+
+
+}
+
+
+
+
+
+body {
+    background-color: #000;
+}
+

@@ -1,0 +1,182 @@
+body {
+    height: 100vh;
+    background: #000000;
+}
+
+.b {
+    position: absolute;
+    top: 70px;
+    left: 450px;
+
+    box-shadow: 0 0 100px #ffffff;
+
+    background: #ffffff;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+
+    transition: 1s;
+
+}
+
+.b:hover {
+    box-shadow: 0 0 100px #0966e9;
+    transition: 1s;
+    border-radius: 14px;
+
+}
+
+img {
+    position: absolute;
+    border-radius: 50%;
+    transition: 2s;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+    width: 600px;
+}
+
+
+.b:hover img {
+
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 150px;
+    transition: 2s;
+}
+
+.but {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    top: 500px;
+    left: 270px;
+
+    border-radius: 50%;
+    background: #46a9ff;
+    border: 0px;
+    font-size: x-large;
+    opacity: 0;
+    transition: 1s;
+
+
+}
+
+.b:hover .but {
+    opacity: 1;
+    transition: 3s;
+    border-radius: 12px;
+    width: 200px;
+
+}
+
+ul {
+    white-space: nowrap;
+    position: absolute;
+    top: -14px;
+    left: 20px;
+    letter-spacing: 20px;
+    transition: 1s;
+}
+
+.b:hover ul {
+
+
+    letter-spacing: 5px;
+    transition: 3s;
+}
+
+i {
+    white-space: nowrap;
+    position: absolute;
+    top: 12px;
+    left: 14px;
+}
+
+.bio{
+   
+    position: absolute;
+    top:300px;
+    left: 30px;
+    font-size: x-large;
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0;
+  letter-spacing: 5px;
+    
+    transition: 1s;
+}
+
+.b:hover .bio{
+    opacity: 1;
+    letter-spacing: 0px;
+  
+    transition: 5s;
+}
+
+
+
+.x1,.x2,.x3,.x4,.x5,.x6,.x7,.x8{
+    color: #ffffff;
+    position: absolute;
+    top: 308px;
+    
+    font-size: 40px;
+    letter-spacing: 0px;
+    opacity: 0.3;
+    background-color: #0966e9;
+    width: 50px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.x1:hover,.x2:hover,.x3:hover,.x4:hover,.x5:hover,.x6:hover,.x7:hover,.x8:hover{
+    opacity: 1;
+    color: #ffffff;
+    text-shadow: 2px 2px 100xp blue ;
+    box-shadow:  0 0 60px #ffffff;
+    transition:0.5s ;
+
+}
+
+
+.x1{
+    left: 30px;
+}
+
+.x2{
+    left: 70px;
+}
+
+.x3{
+    left: 110px;
+}
+
+.x4{
+    left: 150px;
+}
+
+.x5{
+    left: 190px;
+}
+
+.x6{
+    left: 230px;
+}
+
+
+.x7{
+    left: 270px;
+}
+
+.x8{
+    left: 310px;
+}
+

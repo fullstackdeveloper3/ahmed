@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jaro:opsz@6..72&display=swap');
+
+body {
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size:100% ;
+    height: 5555px;
+    display: flex;
+    min-height: 100vh;
+    background-size:cover ;
+background-position:center ;
+background-attachment: fixed;
+
+}
+
+/*الهيدر الرئيسي*/
+header {
+    background-color: #ffffff;
+    width: 99%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.logo {
+    text-decoration: none;
+    color: #4787ff;
+    font-weight: 600;
+    text-shadow: 0 0 20px #4787ff;
+    font-size: 30px;
+    font-family: "Russo One", sans-serif;
+    transition: 2s;
+}
+
+.a {
+    background-color: #4787ff;
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    left: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #4787ff;
+    transition: 1s;
+}
+
+.b {
+    background-color: #4787ff;
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    left: 1360px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #4787ff;
+    transition: 1s;
+}
+
+header:hover {
+    background-color: #000000;
+    transition: 2s;
+}
+
+header:hover .logo {
+
+    text-shadow: 0 0 0px #4787ff;
+    transition: 3s;
+
+}
+
+
+header:hover .a {
+    left: 650px;
+    width: 10px;
+    opacity: 1;
+    transition: 2s;
+    height: 10px;
+    box-shadow: 0 0 0px #4787ff;
+
+}
+
+
+header:hover .b {
+    left: 860px;
+    width: 10px;
+    opacity: 1;
+    transition: 2s;
+    height: 10px;
+    box-shadow: 0 0 0px #4787ff;
+}
+
+/*زر القائمة*/
+.but1 {
+    position: fixed;
+    color: #ff0000;
+    top: 100px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 0px;
+    border-radius: 15px;
+    transition: 1s;
+
+}
+
+.s1 {
+    font-size: 50px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    color: #4787ff;
+
+}
+
+.main,
+.work {
+    opacity: 0;
+    color: #4787ff;
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    font-size: 0px;
+    text-decoration: none;
+    font-family: "Jaro", sans-serif;
+    transition: 0.5s;
+
+}
+
+.work {
+    top: 140px;
+}
+
+.c {
+    background-color: #4787ff;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 25px;
+    top: 50px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.but1:hover {
+    width: 200px;
+    height: 230px;
+    text-shadow: 0 0 10px #4787ff;
+    background-color: #000000;
+    transition: 1s;
+
+}
+
+.but1:hover .work,
+.but1:hover .main {
+    opacity: 1;
+    transition: 1.5s;
+    font-size: 40px;
+}
+
+.but1:hover .c {
+    height: 130px;
+
+    box-shadow: 0 0 10px#4787ff;
+    transition: 1.6s;
+    opacity: 1;
+}
+
+/*التعريف*/
+.section1 {
+    background-color: #ffffff;
+    width: 1350px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 180px;
+    left: 90px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.bio {
+    color: #000000ad;
+    font-family: "Caveat", cursive;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    font-size: 40px;
+    line-height: 15px;
+}
+
+.hello {
+    transition: 0.5s;
+}
+
+.hello:hover {
+
+    text-shadow: 0 10px 20px #ffe603;
+    transition: 0.5s;
+}
+
+.name {
+    transition: 0.5s;
+}
+
+.name:hover {
+
+    text-shadow: 0 10px 20px #00ca2c;
+    transition: 0.5s;
+}
+
+.job {
+    transition: 0.5s;
+}
+
+.job:hover {
+
+    text-shadow: 0 10px 20px #ae00ff;
+    transition: 0.5s;
+}
+
+/*مواقع التواصل */
+
+.site {
+
+    display: inline-block;
+    font-size: 30px;
+    width: 250px;
+    height: 70px;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 300px;
+    left: 110px;
+}
+
+.s2,
+.s3,
+.s4 {
+    color: #000000;
+    transition: 0.5s;
+}
+
+.s2:hover {
+    text-shadow: 0 0 5px #3794ff;
+    transition: 1s;
+}
+
+.s3:hover {
+    text-shadow: 0 0 3px #ff9f46;
+    transition: 0.5s;
+}
+
+.s4:hover {
+    text-shadow: 0 0 10px #25bb00;
+    transition: 1s;
+}
+
+/*خطوط الزينه*/
+
+.fleft{
+    background-color: #4787ff;
+    width: 9px;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    left: 60px;
+    top: 110px;
+    box-shadow: 0 0 10px#4787ff;
+}
+
+.fright{
+    background-color: #4787ff;
+   height: 9px;
+    width: 410px;
+    border-radius: 10px;
+    position: absolute;
+    left: 800px;
+    top: 400px;
+    box-shadow: 0 0 10px#4787ff;
+
+}
+.imgprofile{
+    width:370px ;
+    height: 350px;
+    background-image: url(img1.jpg);
+    background-size:380px;
+  
+    background-repeat:no-repeat ; 
+    border-radius: 10px;
+    position: absolute;
+    left: 820px;
+    top: 40px;
+   transition: 0.5s;
+}
+
+.imgprofile:hover{
+    top: 35px; 
+    transition: 0.5s;
+}
+
+
+.section2{
+background-color: #ffffff;
+width: 1350px;
+height: 800px;
+border-radius: 20px;
+position: absolute;
+top: 800px;
+left: 90px;
+}
+
+
+.project{
+
+    width: 1000px;
+    height: 600px;
+    background-color: #00ca2c;
+     position: absolute;
+     top: 100px;
+     left: 170px;
+}
+
